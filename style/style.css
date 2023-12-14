@@ -21,6 +21,18 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+main{
+    background-color: rgb(123, 123, 124);
+    height: 50%;
+
+  
+}
+footer{
+    background-color: rgb(243, 151, 89);
+    height: 15%;
+   
+  
+}
 
 #logo-container{
     height: 60px;

@@ -21,18 +21,8 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-main{
-    background-color: rgb(123, 123, 124);
-    height: 50%;
+/*---------------------------------------headerstyles---------------------------------------*/
 
-  
-}
-footer{
-    background-color: rgb(243, 151, 89);
-    height: 15%;
-   
-  
-}
 
 #logo-container{
     height: 60px;
@@ -72,7 +62,26 @@ button{
 
 }
 
-#profile-image{
+.profile-image{
     height: 50px;
     width: 50px;
+}
+/*---------------------------------------main ---------------------------------------*/
+main {
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; /* se organiza el contenido en base a sus hijos y el tamaño del mismo */
+    gap: 15px;
+  }
+
+
+/*---------------------------------------footer---------------------------------------*/
+footer{
+    background-color: rgb(243, 151, 89);
+    height: 15%;
+   
+  
 }
